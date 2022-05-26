@@ -1,7 +1,6 @@
 #!/bin/bash
 echo -e "" 
 echo "         --------------------------------------------------------------------------------------------------------------------------------------------------"
-echo -e "" 
                                                                 Vui Lòng Lựa Chọn Source !
 
 echo "         ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████"
@@ -17,7 +16,7 @@ echo && read -p "Vui lòng nhập một số 1 Hoặc 2 để Thực Hiện Câu
     case "${num}" in
         1) bash <(curl -Ls https://raw.githubusercontent.com/azvpn/xrayr/main/install.sh)
         ;;
-        2) bash <(curl -Ls https://raw.githubusercontent.com/azvpn/status/main/key.sh)
+        2) bash <(curl -Ls https://raw.githubusercontent.com/azvpn/status/main/install.sh)
         ;;
         *) echo -e "  Chỉ Có Thể Nhập 1 Hoặc 2" 
         ;;
